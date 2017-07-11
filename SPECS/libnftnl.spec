@@ -1,5 +1,5 @@
 Name:           libnftnl
-Version:        1.0.6
+Version:        1.0.7
 Release:        1%{?dist}
 Summary:        Library for low-level interaction with nftables Netlink's API over libmnl
 License:        GPLv2+
@@ -48,5 +48,8 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 %{_includedir}/libnftnl
 
 %changelog
+* Tue Jul 11 2017 Hiroaki Nakamura <hnakamur@gmail.com> 1.0.7-1
+- 1.0.7
+
 * Wed Jun 29 2016 Phil Sutter <psutter@redhat.com> 1.0.6-1
 - Rebased from Fedora Rawhide and adjusted for RHEL review.
